@@ -1,5 +1,5 @@
 import React from "react"
-import layoutStyles from "./layout.module.css"
+import layoutStyles from "../styles/layout.module.css"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
@@ -9,7 +9,11 @@ const Layout = (props) => {
 
         <div className={layoutStyles.content}>
           <Header />
-          {props.children}
+
+              <div className={layoutStyles.test}>
+                {props.children}
+              </div>
+
         </div>
 
         <Footer />

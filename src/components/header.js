@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import headerStyles from "./header.module.css"
+import headerStyles from "../styles/header.module.css"
 
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
           <header className={headerStyles.header}>
 
             <ul className={headerStyles.navList}>
-              
+
                 <li className={headerStyles.listItemLeft} >
                   <Link className={headerStyles.title} to="/" >
                            MEHTAPAYDIN
@@ -17,7 +17,7 @@ const Header = () => {
                 </li>
 
                 <li className={headerStyles.listItem}>
-                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
+                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact/">Contact</Link>
                 </li>
 
                 <li className={headerStyles.listItem}>
@@ -25,7 +25,7 @@ const Header = () => {
                 </li>
 
                 <li className={headerStyles.listItem}>
-                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact/">Contact</Link>
+                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
                 </li>
 
             </ul>

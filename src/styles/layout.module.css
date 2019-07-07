@@ -1,6 +1,6 @@
 .layout {
-  /* background-color: #f7f7f7; */
-  margin: 2rem;
+  background-color: #ffffff;
+  margin: 1rem;
   max-width: 800;
   padding: 1rem;
 
@@ -13,9 +13,7 @@
   flex-grow: 1;
 }
 
-.h1{
-  display: inline;
-  font-family: 'Futura';
-  font-size:12em;
-  font-weight: 700;
+.test {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
