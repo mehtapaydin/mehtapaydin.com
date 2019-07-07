@@ -1,0 +1,23 @@
+.social-container {
+  float: none;
+  margin: auto;
+}
+
+.social-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0 1rem;
+  float: none;
+
+}
+
+.social-list-item {
+  margin-right: 1rem;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+}
+
+.social-list-item:hover {
+  color: #666666;
+}
