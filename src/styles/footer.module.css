@@ -1,12 +1,6 @@
 .container {
   float:none;
-  margin: auto;
+  margin:auto;
   justify-content: center;
-}
-
-.h5{
   text-align: center;
-  float:none;
-  margin: auto;
-  justify-content: center;
 }
