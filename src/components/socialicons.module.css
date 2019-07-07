@@ -1,13 +1,19 @@
 .social-container {
   float: none;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .social-list {
   display: flex;
   list-style-type: none;
-  margin: 0 1rem;
-  float: none;
+  margin: 0 0rem;
+  float: left;
+
+  font-family: 'Futura';
+  font-size:0.5em;
+  font-weight: 500;
 
 }
 

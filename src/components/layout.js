@@ -6,11 +6,13 @@ import Footer from "../components/footer"
 const Layout = (props) => {
   return (
     <div className={layoutStyles.layout}>
-      <div className={layoutStyles.content}>
-       <Header />
-        {props.children}
-      </div>
-      <Footer />
+
+        <div className={layoutStyles.content}>
+          <Header />
+          {props.children}
+        </div>
+
+        <Footer />
     </div>
   )
 }
