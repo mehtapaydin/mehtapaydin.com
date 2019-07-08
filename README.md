@@ -11,7 +11,7 @@ This is my website and I am learning Gatsby at the same time.
 
 If you want to run this site locally:
 
-- `git clone https://github.com/mehtapaydin.com`
+- `git clone https://github.com/mehtapaydin/mehtapaydin.com`
 - Install [Gatsby](https://www.gatsbyjs.org/): `npm i -g gatsby-cli`
 - Run `gatsby develop`
 - 🔥
