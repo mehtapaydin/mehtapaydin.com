@@ -10,7 +10,7 @@ lincolnTheme.baseFontWeight = '700' // was 20px.
 lincolnTheme.baseLineHeight = '2' // was 20px
 lincolnTheme.headerFontFamily = ['Futura PT']
 lincolnTheme.headerFontSize = '40px'
-lincolnTheme.bodyFontFamily = ['Lato']
+lincolnTheme.bodyFontFamily = ['Open Sans']
 
 
 

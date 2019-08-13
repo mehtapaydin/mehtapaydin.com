@@ -12,9 +12,9 @@
   list-style-type:none;
   width:100%;
 
-  font-family: 'Futura';
-  font-size:0.8em;
-  font-weight: 500;
+  font-family: 'Futura PT';
+  font-size: 1em;
+  font-weight: 400;
 
 }
 
@@ -23,6 +23,7 @@
   text-decoration: none;
   text-shadow: none;
   background-image: none;
+  font-size: 2em;
 }
 
 
@@ -48,7 +49,7 @@
 }
 
 .nav-item:hover {
-  color: #666666;
+  color: #ff9669;
 }
 
 

@@ -12,7 +12,7 @@ const Header = () => {
 
                 <li className={headerStyles.listItemLeft} >
                   <Link className={headerStyles.title} to="/" >
-                           MEHTAPAYDIN
+                           M
                   </Link>
                 </li>
 
