@@ -5,14 +5,25 @@
  */
 
  module.exports = {
-   plugins: [
-     {
-       resolve: `gatsby-plugin-typography`,
+
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-typography`,
        options: {
          pathToConfigModule: `src/utils/typography`,
-       },
+      },
+    },
 
-       plugins: [`gatsby-plugin-styled-components`],
-     },
-   ],
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+  ],
+
  }
