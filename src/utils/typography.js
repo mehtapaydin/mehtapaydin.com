@@ -5,13 +5,12 @@ import lincolnTheme from "typography-theme-lincoln"
 
 //
 // const typography = new Typography(lincolnTheme)
-lincolnTheme.baseFontSize = '20px' // was 20px.
+lincolnTheme.baseFontSize = '18px' // was 20px.
 lincolnTheme.baseFontWeight = '700' // was 20px.
 lincolnTheme.baseLineHeight = '2' // was 20px
 lincolnTheme.headerFontFamily = ['Futura PT']
 lincolnTheme.headerFontSize = '40px'
 lincolnTheme.bodyFontFamily = ['Open Sans']
-
 
 
 
