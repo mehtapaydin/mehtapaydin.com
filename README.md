@@ -36,6 +36,6 @@ If you want to run this site locally:
    - `$ npm i --save @fortawesome/free-brands-svg-icons`
    - `$ npm i --save @fortawesome/free-regular-svg-icons`
     
-     
-    
-    
+
+#### Gatsby Image
+[In Depth gatsby-image Tutorial](https://www.youtube.com/watch?v=wTQtTjovDa0&list=PLruo2gSoqleiE1yUhdfC3QL7Xc5INTbN4&index=4)

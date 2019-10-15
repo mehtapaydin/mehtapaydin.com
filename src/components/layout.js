@@ -3,6 +3,8 @@ import layoutStyles from "../styles/layout.module.css"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
+
+
 const Layout = (props) => {
   return (
     <div className={layoutStyles.layout}>
@@ -13,7 +15,7 @@ const Layout = (props) => {
                 {props.children}
               </div>
         </div>
-
+     
         <Footer />
     </div>
   )
