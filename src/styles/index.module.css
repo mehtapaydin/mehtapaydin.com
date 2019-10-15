@@ -6,3 +6,8 @@
   font-weight: 400;
   columns: #131313;
 }
+
+.narrow {
+  margin-top: 2rem;
+  max-width: 48rem;
+}

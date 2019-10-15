@@ -9,7 +9,7 @@ const Projects = () => {
                 nodes {
                     id
                     childImageSharp {
-                        fixed (width:200, height:200) {
+                        fixed (width:360, height:360) {
                           ...GatsbyImageSharpFixed
                         }
                         

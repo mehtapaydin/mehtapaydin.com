@@ -9,12 +9,13 @@ import Projects from "../components/projects"
 const HomePage = () => {
   return (
       <Layout>
-        <div>
+        <div className={style.narrow}>
         <h1 className={style.h1}> Hi, I am Mehtap, an interaction designer, creative technologist based in New York.</h1>
-       </div>
         <p>
         Currently I've been creating solutions for cloud technologies at Google Cloud team. My aspiration is to simplify complex systems and make it easy to use and accessible for everybody. I am also intrigued by exploring new tools, platforms, methodologies to find new ways to create enriching experiences through interactive media.
         </p>
+       </div>
+       
 
         <Projects /> 
       </Layout>
