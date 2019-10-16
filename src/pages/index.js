@@ -4,8 +4,6 @@ import style from "../styles/index.module.css"
 import Projects from "../components/projects"
 
 
-// import styled from "styled-components"
-
 const HomePage = () => {
   return (
       <Layout>
