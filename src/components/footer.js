@@ -63,7 +63,6 @@ const Footer = () => {
                 </ul>
           </div>
           <div> <h5> Mehtap Aydin, ©2019 </h5> </div>
-         
       </footer>
     )
   }

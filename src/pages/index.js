@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import style from "../styles/index.module.css"
 import Projects from "../components/projects"
-
+import Works from "../components/works"
 
 const HomePage = () => {
   return (
@@ -13,7 +13,6 @@ const HomePage = () => {
         Currently I've been creating solutions for cloud technologies at Google Cloud team. My aspiration is to simplify complex systems and make it easy to use and accessible for everybody. I am also intrigued by exploring new tools, platforms, methodologies to find new ways to create enriching experiences through interactive media.
         </p>
        </div>
-       
 
         <Projects /> 
       </Layout>
