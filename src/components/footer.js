@@ -62,7 +62,10 @@ const Footer = () => {
                     </li>
                 </ul>
           </div>
-          <div> <h5> Mehtap Aydin, ©2019 </h5> </div>
+          <div>
+             <h5> Mehtap Aydin, ©2019 </h5> 
+          
+          </div>
          
       </footer>
     )

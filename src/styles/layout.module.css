@@ -2,6 +2,7 @@
   background-color: #f8f8f8;
   max-width: 800;
   padding: 4rem;
+  padding-top: 1rem;
 
   display: flex;
   flex-direction: column;
