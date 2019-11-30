@@ -9,7 +9,7 @@ const Header = () => {
           <header className={headerStyles.header}>
 
             <ul className={headerStyles.navList}>
-
+{/* 
                 <li className={headerStyles.listItemLeft} >
                   <Link className={headerStyles.title} to="/" >
                            M
@@ -26,7 +26,7 @@ const Header = () => {
 
                 <li className={headerStyles.listItem}>
                      <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
-                </li>
+                </li> */}
 
             </ul>
            </header>
