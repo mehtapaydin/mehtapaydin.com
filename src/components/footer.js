@@ -60,13 +60,12 @@ const Footer = () => {
                       <FontAwesomeIcon icon={faEnvelope} size="2x" />
                     </a>
                     </li>
-                </ul>
-          </div>
-          <div>
-             <h5> Mehtap Aydin, ©2019 </h5> 
-          
-          </div>
-         
+                </ul> 
+              </div>  
+
+              <div className={footerStyles.signature}>
+                  <p> Mehtap Aydin, ©2019 </p> 
+              </div> 
       </footer>
     )
   }
