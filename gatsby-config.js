@@ -17,8 +17,8 @@
       options: {
         fonts: [
           'Sulphur Point',
-          'Open Sans'
-          `Open Sans\:300,400,600,700` 
+          'Open Sans',
+          `Open Sans\:300,400,600,700`,
           `Sulphur Point\:300,400,700` // you can also specify font weights and styles
         ],
         display: 'swap'
