@@ -62,7 +62,9 @@ const Footer = () => {
                     </li>
                 </ul>
           </div>
-          <div> <h5> Mehtap Aydin, ©2019 </h5> </div>
+          <div className={footerStyles.signature}> 
+            <p> Mehtap Aydin, ©2019 </p> 
+          </div>
       </footer>
     )
   }

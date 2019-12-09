@@ -1,13 +1,16 @@
-
 .h1{
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: 500;
   font-size: 64px;
   line-height: 120%;
   letter-spacing: normal;
-  font-weight: 400;
   columns: #131313;
 }
 
 .narrow {
-  margin-top: 2rem;
-  max-width: 48rem;
+  max-width: 56rem;
+}
+
+a:link {
+  color: black;
 }

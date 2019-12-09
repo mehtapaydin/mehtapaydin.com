@@ -10,7 +10,8 @@ const HomePage = () => {
         <div className={style.narrow}>
         <h1 className={style.h1}> Hi, I am Mehtap, an interaction designer, creative technologist based in New York.</h1>
         <p>
-        Currently I've been creating solutions for cloud technologies at Google Cloud team. My aspiration is to simplify complex systems and make it easy to use and accessible for everybody. I am also intrigued by exploring new tools, platforms, methodologies to find new ways to create enriching experiences through interactive media.
+        I'm currently working as an Interaction Designer at Google, creating solutions for Google Cloud products and services. I love spending time on creating experimental stuff by using Web technologies, cooking, baking, reading and learning.
+        While I am working on my portfolio you can check out some of my works at <a href="https://glitch.com/@mehtapaydin" target="_blank" rel="noreferrer noopener">Glitch.com </a>, <a href="https://github.com/mehtapaydin" target="blank" rel="noreferrer noopener"> Github </a> or take a look at <a href="https://vsco.co/uzgunumleyla" target="_blank" rel="noreferrer noopener">photographs</a> I took.  
         </p>
        </div>
 

@@ -4,8 +4,6 @@
   justify-content: center;
   text-align: center;
 }
-
-
 .social-container {
   float: none;
   margin: auto;
@@ -13,13 +11,15 @@
   justify-content: center;
 }
 
+
 .social-list {
   display: flex;
   list-style-type: none;
   margin: 0 0rem;
+  margin-left: -2rem;
   float: left;
 
-  font-family: 'Futura';
+  font-family: 'Open Sans';
   font-size:0.5em;
   font-weight: 500;
 }
@@ -36,8 +36,12 @@
     display:inline-block;
 }
 
-
 .social-links:hover {
   color: #343434;
   transform: translateY(-1.5px);
+}
+
+.signature {
+  font-size: 14px;
+  margin: auto;
 }
