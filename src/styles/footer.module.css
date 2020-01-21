@@ -3,7 +3,9 @@
   margin:auto;
   justify-content: center;
   text-align: center;
+  padding: 2rem;
 }
+
 .social-container {
   float: none;
   margin: auto;
