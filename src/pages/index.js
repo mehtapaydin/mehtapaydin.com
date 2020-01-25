@@ -2,7 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import style from "../styles/index.module.css"
 import Projects from "../components/projects"
-import Works from "../components/works"
+
+
 
 const HomePage = () => {
   return (
@@ -15,7 +16,7 @@ const HomePage = () => {
         </p>
        </div>
 
-        <Projects /> 
+       <Projects /> 
       </Layout>
     )
 }

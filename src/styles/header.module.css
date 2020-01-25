@@ -6,15 +6,14 @@
   display: flex;
 }
 
-
 .nav-list {
   margin: 0;
   list-style-type:none;
   width:100%;
 
-  font-family: 'Sulphur Point', sans-serif;
-  font-size: 1em;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: 500;
 
 }
 
@@ -24,7 +23,6 @@
   text-shadow: none;
   background-image: none;
   font-size: 2em;
-  
 }
 
 
@@ -45,7 +43,6 @@
   text-shadow: none;
   background-image: none;
   text-align: center;
-
 }
 
 .nav-item:hover {

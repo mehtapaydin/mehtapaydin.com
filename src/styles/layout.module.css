@@ -1,7 +1,7 @@
 .layout {
   background-color: #f8f8f8;
   padding: 4rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -11,6 +11,15 @@
   flex-grow: 1;
   max-width: 1280px;
   margin: auto;
+}
+
+h1{
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: normal;
+  columns: #131313;
 }
 
 body {

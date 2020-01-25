@@ -1,3 +1,5 @@
+
+  
 //Test page for how to user gatsby images from a folder
 
 import React from "react"
@@ -22,12 +24,12 @@ const Projects = () => {
                 id
                 childImageSharp {
                   fixed (
-                      width:400
+                      width:400, height: 400
                   ){
                     ...GatsbyImageSharpFixed
                   }
                   
-                  fluid {
+                  fluid(maxWidth: 60) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -52,12 +54,14 @@ const Projects = () => {
             <Img key={image.id} fixed={image.childImageSharp.fixed} />
         ))}
     </div>
+
+    
     )
   }
+
+
+
   
   export default Projects
-
-
-
 
 
