@@ -18,10 +18,10 @@
         fonts: [
           'Sulphur Point',
           `Open Sans`,
-          `Space Mono`,
+          `Montserrat`,
           `Open Sans\:300,400,600,700`,
           `Sulphur Point\:300,400,700`,
-          `Space Mono\:regular 400, regular 400 italic, bold 700, bold 700 italic`// you can also specify font weights and styles
+          `Montserrat\:100,200,300,400,500,600,700,800,900`,
         ],
         display: 'swap'
       }
