@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
+// import Images from "../components/images"
+import Posts from "../components/posts"
 import style from "../styles/index.module.css"
-import Projects from "../components/projects"
 
 
 
@@ -16,7 +17,8 @@ const HomePage = () => {
         </p>
        </div>
 
-       <Projects /> 
+       {/* <Images /> */}
+       <Posts />
       </Layout>
     )
 }

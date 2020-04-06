@@ -21,24 +21,34 @@ module.exports = {
           `Space Mono`,
           `Open Sans\:300,400,600,700`,
           `Sulphur Point\:300,400,700`,
+          'Questrial\:regular 400',
           `Space Mono\:regular 400, regular 400 italic, bold 700, bold 700 italic`// you can also specify font weights and styles
         ],
         display: 'swap'
       }
     },
+
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+          name: 'src',
+          path: `${__dirname}/src/`
+      }
+  },
+  'gatsby-transformer-remark'
+
     // {
-    //   resolve: `gatsby-plugin-typography`,
-    //    options: {
-    //      pathToConfigModule: `src/utils/typography`,
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `src`,
+    //     path: `${__dirname}/src/`
+    //   },
+    //   options: {
+    //     name: `src`,
+    //     path: `${__dirname}/src/images`
     //   },
     // },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-  ],
-
+    // 'gatsby-transformer-remark'
+    
+  ]
  }

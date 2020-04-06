@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "../styles/header.module.css"
-import Projects from "../components/projects"
 
 const Header = () => {
     return (

@@ -6,7 +6,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-const Projects = () => {
+const Images = () => {
     const data = useStaticQuery (graphql`
         query Images {
             images: allFile ( filter: { relativeDirectory: {eq: "gallery" } }) {
@@ -59,9 +59,6 @@ const Projects = () => {
     )
   }
 
-
-
-  
-  export default Projects
+  export default Images
 
 
