@@ -1,3 +1,4 @@
+//Generating slugs for posts: Create work list from markdown post
 
 const path = require('path')
 
@@ -14,6 +15,11 @@ module.exports.onCreateNode = ({ node, actions }) => {
         })
     }
 }
+
+//Dynamically generating pages: Create projects page template
+//--> Get path to template
+//--> Get markdown data
+//--> Create new pages
 
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
@@ -42,3 +48,10 @@ module.exports.createPages = async ({ graphql, actions }) => {
         })
     })
 }
+
+
+//Generate a new page for each post: Rendering post data
+
+
+
+

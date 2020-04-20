@@ -6,10 +6,12 @@ import Footer from "../components/footer"
 
 const Layout = (props) => {
   return (
+    
     <div className={layoutStyles.layout}>
+      <Header />
 
         <div className={layoutStyles.content}>
-          <Header />
+          
                 {props.children}
         </div>
      

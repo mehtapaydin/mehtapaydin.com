@@ -2,8 +2,9 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
+//allMarkdownRemark for all posts, MarkdownRemark for a single post
 
-const Posts = () => {
+const Works = () => {
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark {
@@ -34,7 +35,7 @@ const Posts = () => {
 
     return (
         <div>
-            <h4> Posts will show up here!</h4>
+            <h4> Works will show up here!</h4>
                 <ol>
                     {data.allMarkdownRemark.edges.map((edge)=>{
                         return(
@@ -55,4 +56,4 @@ const Posts = () => {
 }
 
 
-export default Posts
+export default Works
