@@ -1,6 +1,7 @@
 .container {
   float:none;
   margin:auto;
+  margin-top: 3rem;
   justify-content: center;
   text-align: center;
 }
