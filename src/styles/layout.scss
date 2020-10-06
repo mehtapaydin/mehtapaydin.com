@@ -1,17 +1,7 @@
-/* .layout {
-  background-color: #f8f8f8;
-  padding: 4rem;
-  padding-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
+@import 'grid';
+@import 'footer';
+@import 'header';
 
-.content{
-  flex-grow: 1;
-  max-width: 1280px;
-  margin: auto;
-}
 
 
 h1{
@@ -35,3 +25,7 @@ body {
 a:link {
   color: black;
 }
+
+
+
+

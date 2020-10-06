@@ -1,36 +1,35 @@
 import React from "react"
 import { Link } from "gatsby"
-import headerStyles from "../styles/header.module.css"
+
 
 const Header = () => {
     return (
-      <div>
-          <header className={headerStyles.header}>
+          <header className="container">
+               <div className="grid"> 
+                    <div className="col-span-6">
+                         <Link className="title" to="/" >
+                         MA
+                         </Link>     
+                    </div>
+         
 
-            <ul className={headerStyles.navList}>
+                    <div className="col-span-6">   
+                         <ul className="nav-list"> 
+                              <li className="list-item">
+                                   <Link className="nav-item" activeClassName="active-nav-item" to="/contact/">Contact</Link>
+                              </li>
 
-                <li className={headerStyles.listItemLeft} >
-                  
-                  <Link className={headerStyles.title} to="/" >
-                           M
-                  </Link>
-                </li>
+                              <li className="list-item">
+                                   <Link className="nav-item" activeClassName="active-nav-item" to="/about/">About</Link>
+                              </li>
 
-                <li className={headerStyles.listItem}>
-                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact/">Contact</Link>
-                </li>
-
-                <li className={headerStyles.listItem}>
-                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about/">About</Link>
-                </li>
-
-                <li className={headerStyles.listItem}>
-                     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
-                </li>
-
-            </ul>
+                              <li className="list-item">
+                                   <Link className="nav-item" activeClassName="active-nav-item" to="/">Home</Link>
+                              </li>
+                         </ul>
+                    </div>  
+               </div>
            </header>
-      </div>
     )
   }
 
