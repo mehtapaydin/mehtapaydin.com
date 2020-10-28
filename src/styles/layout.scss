@@ -1,31 +1,212 @@
+@import 'var';
 @import 'grid';
 @import 'footer';
+@import 'nav';
 @import 'header';
 
 
+// h1{
+//   font-family: 'Sulphur Point', sans-serif;
+//   font-weight: 500;
+//   font-size: 54px;
+//   line-height: 120%;
+//   letter-spacing: normal;
+//   columns: #131313;
+// }
 
-h1{
-  font-family: 'Sulphur Point', sans-serif;
-  font-weight: 500;
-  font-size: 54px;
-  line-height: 120%;
-  letter-spacing: normal;
-  columns: #131313;
+// body {
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 180%;
+//   letter-spacing: normal;
+//   columns: #131313;
+// }
+
+// a:link {
+//   color: black;
+// }
+
+
+
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+
+.intro {
+  padding: 9rem 0 2rem;
+
+  @media (min-width: $md) {
+    padding: 13rem 0 0;
+  }
+}
+
+
+a {
+  font-weight: 600;
+  text-decoration: none;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-family: $font-secondary;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 180%;
   letter-spacing: normal;
-  columns: #131313;
+  color: $color-gray;
+  line-height: 1.55;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $color-white;
+
+  @media (min-width: $sm) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: $md) {
+    font-size: 1.125rem;
+  }
 }
 
-a:link {
-  color: black;
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  color: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0 2rem 0 0;
+
+    @media (min-width: $sm) {
+      margin: 0 2.5rem 0 0;
+    }
+  }
+}
+
+.container {
+  max-width: 76rem;
+  margin: auto;
+  width: 100%;
+  padding: 0 1rem;
 }
 
 
+h1 {
+  font-family: $font-main;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  color: $color-black;
+
+  @media (min-width: $md) {
+    font-size: 3rem;
+    max-width: 50rem;
+  }
+}
+
+h2 {
+  font-family: $font-main;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 1.5rem 0 0;
+  color: $color-black;
+
+  @media (min-width: $md) {
+    margin-top: 0.85rem;
+    font-size: 2.125rem;
+  }
+}
+
+h3 {
+  font-family: $font-main;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin: 1.25rem 0 0.5rem;
+  padding: 0;
+  color: $color-black;
+
+  @media (min-width: $md) {
+    font-size: 1.75rem;
+  }
+}
+
+p.lead {
+  font-size: 1.125rem;
+
+  @media (min-width: $md) {
+    font-size: 1.375rem;
+    max-width: 44rem;
+  }
+}
+
+.error-intro {
+  display: flex;
+  align-content: center;
+  height: 100vh;
+
+  .not-found {
+    text-align: center;
+    
+    .face {
+      font-family: serif;
+      font-size: 4rem;
+      font-weight: 500;
+      @media (min-width: $md) {
+        font-size: 6rem;
+      }
+
+      span {
+        font-family: 'Assistant', sans-serif;
+      }
+
+      sup {
+        position: relative;
+        top: 0.75rem;
+        font-size: 2.5rem;
+        
+        @media (min-width: $md) {
+          top: 0.875rem;
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .lead {
+      max-width: 100%;
+    }
+  }
+}
+
+.link {
+  color: $link-color;
+  text-shadow: 0.0625rem 0.0625rem 0 $color-white, -0.0625rem 0.0625rem 0 $color-white, 0.125rem 0 0 $color-white, -0.125rem 0 0 $color-white;
+  box-shadow: inset 0 -0.0625rem 0 0 $color-white, inset 0 -0.1875rem 0 0 $link-underline-color;
+  transition: box-shadow 150ms ease;
+
+  &:hover, &:focus {
+    box-shadow: inset 0 -0.0625rem 0 0 $color-white, inset 0 -0.1875rem 0 0 $link-color;
+  }
+}
 
 

@@ -1,12 +1,12 @@
 import React from "react"
 import "../styles/layout.scss"
-import Header from "../components/header"
 import Footer from "../components/footer"
+import Nav from "../components/nav"
 
 const Layout = (props) => {
   return (
     <div>
-      <Header />
+      <Nav />
         <div> 
            {props.children}
         </div>
