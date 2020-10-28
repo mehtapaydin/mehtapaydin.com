@@ -17,7 +17,7 @@ nav {
   }
 
   span {
-    color: var(--color-black);
+    color: $color-black;
     font-weight: 600;
 
     @media (min-width: $md) {
@@ -45,12 +45,12 @@ nav {
       a {
         position: relative;
         display: inline-block;
-        color: var(--color-gray);
+        color: $color-gray;
         font-weight: 600;
         transition: color 0.2s ease;
 
         &:hover, &:focus {
-          color: var(--color-black);
+          color: $color-black;
         }
 
         @media (min-width: $md) {

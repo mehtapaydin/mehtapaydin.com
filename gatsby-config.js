@@ -24,17 +24,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-
             
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          'Sulphur Point',
-          `Open Sans`,
-          `Open Sans\:300,400,600,700`,
-          `Sulphur Point\:300,400,700`,
-          `Space Mono\:regular 400, regular 400 italic, bold 700, bold 700 italic`// you can also specify font weights and styles
+          'Jost',
+          `Jost\:100,200,300,400,500,600, 700`,
+          'Poppins',
+          `Poppins\:100,200,300,400,500,600, 700`,
+          // `Open Sans`,
+          // `Open Sans\:300,400,600,700`,
         ],
         display: 'swap'
       }
@@ -47,19 +47,7 @@ module.exports = {
           path: `${__dirname}/src/`
       }
   },
- 
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `src`,
-    //     path: `${__dirname}/src/`
-    //   },
-    //   options: {
-    //     name: `src`,
-    //     path: `${__dirname}/src/images`
-    //   },
-    // },
-    // 'gatsby-transformer-remark'
+
     
   ]
  }
