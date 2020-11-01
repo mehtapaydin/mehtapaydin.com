@@ -17,7 +17,7 @@ import {
 
 const Footer = () => {
     return (
-      <footer className="footer-container">
+      <footer className="container">
            <div className="social-container">
               <ul className="social-list">
                   <li className="social-list-item">
@@ -64,7 +64,7 @@ const Footer = () => {
                 </ul>
           </div>
           <div className="signature"> 
-            <p> Mehtap Aydin, ©2020 </p> 
+            <p> Designed and built by Mehtap Aydin, ©2020 </p> 
           </div>
       </footer>
     )

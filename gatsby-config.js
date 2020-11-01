@@ -46,7 +46,20 @@ module.exports = {
           name: 'src',
           path: `${__dirname}/src/`
       }
-  },
+    },
+
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mehtap Aydin`,
+        short_name: `MehtapA`,
+        start_url: `/`,
+        background_color: `#f1f1f1`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/MLogo.png`, // This path is relative to the root of the site.
+      },
+    },
 
     
   ]

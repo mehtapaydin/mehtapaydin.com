@@ -33,7 +33,7 @@ body {
   font-family: $font-secondary;
   font-weight: 300;
   letter-spacing: normal;
-  color: $color-gray;
+  color: $color-black-secondary;
   line-height: 1.55;
   word-wrap: break-word;
   font-kerning: normal;
@@ -82,20 +82,29 @@ ul {
   max-width: 76rem;
   margin: auto;
   width: 100%;
-  padding: 0 1rem;
+  padding: 0 3rem;
+
 }
+
+.wrapper {
+  display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, [col] 200px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+}
+
 
 
 h1 {
   font-family: $font-main;
-  font-size: 3.2rem;
-  font-weight: 400;
-  line-height: 1.15;
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 1.20;
   margin: 0;
   color: $color-black;
 
   @media (min-width: $md) {
-    font-size: 3.2rem;
+    font-size: 3rem;
     max-width: 50rem;
   }
 }
@@ -131,10 +140,11 @@ h3 {
 p.lead {
   font-family: $font-secondary;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.7;
 
   @media (min-width: $md) {
-    font-size: 1.175rem;
+    font-size: 1rem;
     max-width: 44rem;
   }
 }

@@ -1,7 +1,7 @@
 ---
-title: "COWO"
+title: "TEST"
 date: "2017"
-thumbnail: ./img3.jpg
+thumbnail: ./img2.png
 description: Cowo
 ---
 

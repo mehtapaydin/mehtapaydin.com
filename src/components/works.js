@@ -15,8 +15,8 @@ const Works = () => {
                             date
                             thumbnail {
                                 childImageSharp {
-                                    fixed (width:360, height:360) {
-                                        ...GatsbyImageSharpFixed
+                                    fluid(maxWidth: 600) {
+                                        ...GatsbyImageSharpFluid
                                       }
                                 }
                                 
@@ -34,22 +34,23 @@ const Works = () => {
 
 
     return (
-        <div>
-            <h4> Works will show up here!</h4>
-                <ol>
-                    {data.allMarkdownRemark.edges.map((edge)=>{
-                        return(
-                            <li>
-                                
-                                <Link to= {`/project/${edge.node.fields.slug}`} >
-                                    <h2>{edge.node.frontmatter.title}</h2>
-                                    <p> {edge.node.frontmatter.date}</p>
-                                     <Img fixed={edge.node.frontmatter.thumbnail.childImageSharp.fixed}/>
-                                </Link> 
-                            </li>
-                        )
-                    })}
-                </ol> 
+        <div className="container">
+            <div className="grid">
+                <h4> Works will show up here!</h4>
+                    <div className="wrapper" >
+                        {data.allMarkdownRemark.edges.map((edge) => {
+                            return (
+                                <div>
+                                    <Link to={`/project/${edge.node.fields.slug}`}>
+                                        <Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} />
+                                        <h2>{edge.node.frontmatter.title}</h2>
+                                        <p> {edge.node.frontmatter.date}</p>
+                                    </Link>
+                                </div>
+                            )
+                        })}
+                    </div>
+            </div>
         </div>
     )
 

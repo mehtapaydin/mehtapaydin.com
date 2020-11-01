@@ -12,7 +12,7 @@ nav {
     padding: 0 1rem;
 
     @media (min-width: $sm) {
-      adding: 0.25rem 1rem;
+      padding: 0.25rem 1rem;
     }
   }
 
@@ -45,16 +45,16 @@ nav {
       a {
         position: relative;
         display: inline-block;
-        color: $color-gray;
-        font-weight: 600;
+        color: $color-black;
+        font-weight: 500;
         transition: color 0.2s ease;
 
-        &:hover, &:focus {
-          color: $color-black;
+        &:hover, &:focus, {
+          color: $color-orange;
         }
 
         @media (min-width: $md) {
-          font-size: 17px;
+          font-size: 15px;
         }
       }
     }
@@ -66,8 +66,8 @@ nav {
   align-items: center;
 
   @media (min-width: $sm) {
-    width: 120px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     
     &:hover .avatar-content,
     &:focus-within .avatar-content {
