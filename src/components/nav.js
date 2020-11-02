@@ -15,7 +15,7 @@ const Nav = () => (
                             <Link href="/"><img src={Mlogo} alt="Mehtap Aydin"></img></Link>
                         </div>
                         <figcaption className="avatar-content">
-                            <span><h4>Mehtap Aydin</h4></span>
+                            <span className="logotype">mehtap aydin</span>
                         </figcaption>
                     </figure>
                 </div>

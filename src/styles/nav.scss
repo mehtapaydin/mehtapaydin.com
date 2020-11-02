@@ -19,9 +19,12 @@ nav {
   span {
     color: $color-black;
     font-weight: 600;
+    font-family: $font-secondary;
+    letter-spacing: 1.5px;
 
     @media (min-width: $md) {
-      font-size: 17px;
+      font-size: 16px;
+
     }
   }
 
@@ -73,7 +76,7 @@ nav {
     &:focus-within .avatar-content {
       opacity: 1;
       transform: translateX(4.5rem);
-      transition: transform 200ms ease, opacity 300ms ease;
+      transition: transform 500ms ease, opacity 300ms ease;
     }
   }
 
@@ -103,81 +106,8 @@ nav {
       opacity: 0;
       position: absolute;
       transform: translateX(3rem);
-      transition: transform 300ms ease, opacity 150ms ease;
+      transition: transform 300ms ease, opacity 300ms ease;
     }
   }
 }
 
-
-
-// .header {
-//   padding: 0rem 0 1rem;
-//   text-shadow: none;
-//   display: flex;
-// }
-
-// .nav-list {
-//   margin: 0;
-//   list-style-type:none;
-//   width:100%;
- 
-
-//   font-family: 'Open Sans', sans-serif;
-//   font-size: 12pt;
-//   font-weight: 500;
-
-// }
-
-// .title {
-//   color: #000000;
-//   text-decoration: none;
-//   text-shadow: none;
-//   background-image: none;
-//   font-size: 2em;
-// }
-
-
-// .list-item-left{
-//   float: left;
-//   width: auto;
-// }
-
-// .list-item{
-//   float: right;
-//   width: 4rem;
-//   text-align: center;
-// }
-
-// .nav-item {
-//   color: #999999;
-//   text-decoration: none;
-//   text-shadow: none;
-//   background-image: none;
-//   text-align: center;
-// }
-
-// .nav-item:hover {
-//   color: #ff9669;
-// }
-
-// .active-nav-item {
-//   color: #333333;
-// }
-
-
-
-// /* .ul {
-//   font-family: 'Futura';
-//   font-size:0.6em;
-//   font-weight: 500;
-//   list-style: none;
-//   float:right;
-//   display: inline;
-//   margin-right: 1rem;
-// } */
-
-// /*
-// .list {
-//   display: inline;
-//   margin-right: 1rem;
-// } */

@@ -18,7 +18,7 @@ import {
 const Footer = () => {
     return (
       <footer className="container">
-           <div className="social-container">
+           <div className="footer-container">
               <ul className="social-list">
                   <li className="social-list-item">
                     <a  className="social-links" href="https://github.com/mehtapaydin"   target="_blank" rel="noreferrer noopener">
@@ -56,14 +56,14 @@ const Footer = () => {
                     </a>
                     </li>
 
-                    <li>
+                    <li className="social-list-item">
                     <a className="social-links" href="mailto:mehtapaydinnnn@gmail.com" rel="noreferrer noopener">
                       <FontAwesomeIcon icon={faEnvelope} size="2x" />
                     </a>
                     </li>
                 </ul>
           </div>
-          <div className="signature"> 
+           <div className="signature"> 
             <p> Designed and built by Mehtap Aydin, ©2020 </p> 
           </div>
       </footer>

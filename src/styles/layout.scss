@@ -23,7 +23,7 @@
 
 
 a {
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -83,28 +83,19 @@ ul {
   margin: auto;
   width: 100%;
   padding: 0 3rem;
-
 }
-
-.wrapper {
-  display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(12, [col] 200px ) ;
-    grid-template-rows: repeat(3, [row] auto  );
-}
-
 
 
 h1 {
   font-family: $font-main;
   font-size: 2.75rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.20;
   margin: 0;
   color: $color-black;
 
   @media (min-width: $md) {
-    font-size: 3rem;
+    font-size: 3.25rem;
     max-width: 50rem;
   }
 }
@@ -135,6 +126,20 @@ h3 {
   @media (min-width: $md) {
     font-size: 1.75rem;
   }
+}
+
+h4 {
+  font-family: $font-main;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 500;
+  margin: 1rem 0 0.5rem;
+  padding: 0;
+  color: $color-black;
+
+  @media (min-width: $md) {
+    font-size: 1rem;
+  }  
 }
 
 p.lead {
@@ -188,13 +193,10 @@ p.lead {
 }
 
 .link {
-  color: $link-color;
-  text-shadow: 0.0625rem 0.0625rem 0 $color-white, -0.0625rem 0.0625rem 0 $color-white, 0.125rem 0 0 $color-white, -0.125rem 0 0 $color-white;
-  box-shadow: inset 0 -0.0625rem 0 0 $color-white, inset 0 -0.1875rem 0 0 $link-underline-color;
-  transition: box-shadow 150ms ease;
+  color: $color-black;
 
   &:hover, &:focus {
-    box-shadow: inset 0 -0.0625rem 0 0 $color-white, inset 0 -0.1875rem 0 0 $link-color;
+    color: $color-orange;
   }
 }
 

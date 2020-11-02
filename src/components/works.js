@@ -36,8 +36,8 @@ const Works = () => {
     return (
         <div className="container">
             <div className="grid">
-                <h4> Works will show up here!</h4>
-                    <div className="wrapper" >
+                <h2> Works </h2>
+                    <div className="column-xs-12 column-sm-12 column-md-4">
                         {data.allMarkdownRemark.edges.map((edge) => {
                             return (
                                 <div>

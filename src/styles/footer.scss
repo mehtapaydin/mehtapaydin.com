@@ -1,17 +1,13 @@
 
 .footer-container {
     float:none;
+    display: flex;
     margin:auto;
     margin-top: 3rem;
     justify-content: center;
     text-align: center;
   }
-  .social-container {
-    float: none;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-  }
+  
   
   
   .social-list {
@@ -27,7 +23,7 @@
   }
   
   .social-list-item {
-    margin-right: 1rem;
+    margin: 0.5rem;
   
   }
   
@@ -43,10 +39,11 @@
       }
        
   }
+
   
   .signature {
     font-size: 14px;
-    margin: auto;
+    margin-bottom: 4rem;
     justify-content: center;
     text-align: center;
 
