@@ -19,13 +19,13 @@ const Nav = () => (
                         </figcaption>
                     </figure>
                 </div>
-                <div className="column-xs-12 column-sm-6">
+                {/* <div className="column-xs-12 column-sm-6">
                     <ul>
                         <li><AnchorLink href="#work">Work</AnchorLink></li>
                         <li><Link to="/about/">About</Link></li>
                         <li><Link to="/contact/">Contact</Link></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </nav>

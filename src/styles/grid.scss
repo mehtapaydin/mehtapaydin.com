@@ -14,6 +14,13 @@ $lg: 75rem;
   }
 }
 
+
+.col-span-4-12 { 
+  grid-column-start: 4;
+  grid-column-end: 12;
+}
+
+
 @for $i from 1 through $grid-columns {
   .column-xs-#{$i} {
     flex-basis: $i / $grid-columns * 100%;
@@ -134,8 +141,4 @@ $lg: 75rem;
 // .col-span-3 { grid-column-end: span 3; }
 // .col-span-2 { grid-column-end: span 2; }
 
-// .col-span-8--1 { 
-//   grid-column-start: 2;
-//   grid-column-end: 10;
-// }
 

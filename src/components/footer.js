@@ -6,7 +6,7 @@ import {
   faLinkedinIn,
   faBehance,
   faVimeoV,
-  faMediumM,
+  // faMediumM,
 } from "@fortawesome/free-brands-svg-icons"
 
 import {
@@ -50,11 +50,11 @@ const Footer = () => {
                     </a>
                     </li>
 
-                    <li className="social-list-item" >
+                    {/* <li className="social-list-item" >
                     <a className="social-links" href="https://medium.com/@mehtapaydin" target="_blank" rel="noreferrer noopener">
                       <FontAwesomeIcon icon={faMediumM} size="2x" />
                     </a>
-                    </li>
+                    </li> */}
 
                     <li className="social-list-item">
                     <a className="social-links" href="mailto:mehtapaydinnnn@gmail.com" rel="noreferrer noopener">
