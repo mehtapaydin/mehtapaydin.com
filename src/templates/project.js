@@ -1,6 +1,6 @@
- import React from 'react'
- import Layout from '../components/layout'
- import { graphql } from "gatsby"
+import React from 'react'
+import Layout from '../components/layout'
+import { graphql } from "gatsby"
 
 
 export const query = graphql`
@@ -9,6 +9,8 @@ export const query = graphql`
       frontmatter {
         title
         date
+        description
+        links
       }
       html
     }
@@ -16,13 +18,33 @@ export const query = graphql`
 `
 
 const Project = (props) => {
-    return (
-        <Layout>
+
+  return (
+    <Layout>
+      <div className="post-content">
+        <div className="grid">
+          <div className="column-xs-12 column-sm-12 column-md-12">
             <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-            <p>{props.data.markdownRemark.frontmatter.date}</p>
-            <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-        </Layout>
-    )
+            <h3>{props.data.markdownRemark.frontmatter.links}</h3>
+          </div>
+
+          <div className="column-xs-12 column-sm-12 column-md-8">
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+          </div>
+
+          <div className="column-xs-12 column-sm-12 column-md-4">
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+            <h4>{props.data.markdownRemark.frontmatter.links}</h4>
+          </div>
+        </div>
+
+        <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+      </div>
+    </Layout>
+  )
 }
 
 export default Project

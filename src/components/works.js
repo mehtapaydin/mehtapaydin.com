@@ -42,6 +42,8 @@ const Works = () => {
                         return (
                             <Link to={`/project/${edge.node.fields.slug}`}>
                                 <Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} />
+                                <h2>{edge.node.frontmatter.title}</h2>
+//                              <p> {edge.node.frontmatter.date}</p>
                             </Link>
                          )
                       })
