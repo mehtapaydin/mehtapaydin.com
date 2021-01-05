@@ -14,6 +14,12 @@ $lg: 75rem;
   }
 }
 
+.gridtiles{
+  display: grid; 
+  grid-template-columns: repeat(2, minmax(4%, 50%));
+  grid-auto-rows: minmax(48px, auto);
+  grid-gap: 1rem;
+}
 
 .col-span-4-12 { 
   grid-column-start: 4;

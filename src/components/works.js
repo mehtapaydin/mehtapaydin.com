@@ -35,21 +35,18 @@ const Works = () => {
 
     return (
         <div className="container">
-            <h2> Works will show up here!</h2>
-            <div className="grid">
-                <div className="column-xs-12 column-sm-12 column-md-4">
+            <div className="gridtiles">
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
                             <Link to={`/project/${edge.node.fields.slug}`}>
                                 <Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} />
-                                <h2>{edge.node.frontmatter.title}</h2>
-//                              <p> {edge.node.frontmatter.date}</p>
+                                <h1>{edge.node.frontmatter.title}</h1>
+                                <p> {edge.node.frontmatter.date}</p>
                             </Link>
                          )
                       })
                     }
-                </div>
-            </div>
+                </div>         
         </div>
     )
 
